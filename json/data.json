@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "nombre": "CALL OF DUTY MW",
+    "precio": 6500,
+    "destacado": "SHOOTER",
+    "imagen": "./media/MW.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "RAINBOW SIX SIEGE",
+    "precio": 2500,
+    "destacado": "SHOOTER",
+    "imagen": "./media/R6.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "FIFA 21 ULTIMATE EDITION",
+    "precio": 9000,
+    "destacado": "FUTBOL",
+    "imagen": "./media/fifa.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "THE LAST OF US PARTE 2",
+    "precio": 6500,
+    "destacado": "ACCION/AVENTURA",
+    "imagen": "./media/tlou.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "CALL OF DUTY CW",
+    "precio": 7000,
+    "destacado": "SHOOTER",
+    "imagen": "./media/cw.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "ASSASSINS CREED VALHALLA",
+    "precio": 7000,
+    "destacado": "ACCION/AVENTURA",
+    "imagen": "./media/AC.jpg"
+
+    
+  },
+  {
+    "id": 7,
+    "nombre": "RED DEAD REDEMPTION",
+    "precio": 7000,
+    "destacado": "ACCION/AVENTURA",
+    "imagen": "./media/RDR.jfif"
+
+    
+  },
+  {
+    "id": 8,
+    "nombre": "GRAND THEFT AUTO V",
+    "precio": 5000,
+    "destacado": "ACCION/AVENTURA",
+    "imagen": "./media/GTA.jPG"
+
+    
+  },
+
+  {
+    "id": 9,
+    "nombre": "MORTAL KOMBAT 11",
+    "precio": 7500,
+    "destacado": "PELEA",
+    "imagen": "./media/MK.png"
+
+    
+  }
+
+
+
+]

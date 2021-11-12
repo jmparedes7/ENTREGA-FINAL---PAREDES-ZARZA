@@ -1,0 +1,454 @@
+#header {
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.botonCarrito{
+  font-family: 'Concert One', cursive;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+  align-items: center;
+}
+
+#products{
+  max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modal-container {
+  height: auto;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: -moz-inline-grid;
+  justify-content: center;
+  align-items: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.modal-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 22px;
+  position: absolute ;
+}
+
+.carritoContenedor{
+  display: inline;
+}
+
+.carritoContenedor img{
+  width: 100px;
+}
+
+
+.cardCarrito{
+  width: 100%;
+
+}
+
+.nav-link{
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.main__h1 {
+  font-size: 25px;
+ 	font-family: 'Concert one', cursive;
+	font-weight: bold;
+	text-align: center;
+	padding:40px;
+}
+
+.main__h2 {
+  font-size: 40px;
+  font-family: 'Concert one', cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
+.main__p{
+  color: #000000;
+	font-family: 'Concert One';
+	padding: 20px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main__titulos {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Concert one', cursive;
+  padding: 10px;
+}
+
+.main__videos{
+  text-align: center;
+	padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__imgCarrito{
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  max-width: 100%;
+}
+
+.productos__Row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+	justify-items: center;
+  align-items: end;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.productos__Column{
+	max-width: 33.3%;
+	padding: 20px;
+}
+
+.productos__Column img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+.productos__img{
+    width: 350px;
+    height: 280px;
+}
+
+.card{
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 4px;
+	background: #bdc3c7;
+	box-shadow: 0 1px 3px rgba(0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#card__p{
+  font-family: 'Concert One', cursive;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.productos__img{
+  width: 350px;
+  height: 280px;
+}
+
+.modal__p{
+  font-family: 'Concert One', cursive;
+  font-weight: bold;
+	text-align: center;
+}
+
+.ubicacion__contenedor{
+  display: flex;
+  flex-wrap: wrap;
+	padding: 20px;
+
+}
+
+.ubicacion__p{
+  padding: 50px;
+}
+
+.ubicacion__img{
+  width: 35px;
+	height: 35px;
+}
+
+.footer__h1{
+  font-size: 25px;
+  font-family: 'Concert one', cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
+.footer__conteiner{
+  width: 100%;
+max-width: 1600px;
+margin: auto
+}
+
+.footer__container-body{
+  display: flex;
+justify-content: space-between;
+padding-top: 100px;
+}
+
+.footer__column1{
+  max-width: 400px;
+}
+
+.footer__column1 h1{
+  font-size: 22px;
+}
+
+.footer__column1 p{
+font-size: 14px;
+color: white;
+margin-top: 20px;
+}
+
+.footer__column2{
+max-width: 400px;
+}
+
+.footer__column2 h1{
+font-size: 22px;
+}
+
+.footer__row{
+  margin-top: 20px;
+display: flex;
+}
+
+.footer__row img{
+width: 35px;
+height: 35px;
+}
+
+.footer__row label{
+margin-top: 10px;
+margin-left: 20px;
+
+}
+
+.footer__column3{
+max-width: 400px;
+}
+
+.footer__column3 h1{
+font-size: 22px;
+}
+
+.footer__row2{
+margin-top: 20px;
+display: flex;
+}
+
+.footer__row2 img{
+width: 36px;
+height: 36px;
+}
+
+.footer__row2 label{
+margin-left: 20px;
+max-width: 150px;
+margin-top: 10px;
+
+}
+
+.footer_medioPago{
+  width: 300px;
+  height: auto;
+}
+
+.footer__wpp {
+  height: auto;
+  width: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+}
+
+.footer__wpp:hover {
+  width: 80px;
+}
+
+.footer__imgWpp {
+  width: 50px;
+}
+
+
+footer{
+  color: white;
+	padding: 40px;
+}
+
+body {
+  background: linear-gradient(to top, rgb(239, 59, 54), #ffffff);
+	padding-bottom: 15px;
+	flex-wrap: wrap;
+}
+
+
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon__bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon__bar img{
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon__facebook {
+	background: #2E406E;
+}
+
+.icon__twitter {
+	background: #339DC5;
+}
+
+.icon__twitch {
+	background: #7e1bff;
+}
+
+.icon__instagram {
+	background: #da0c50;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+
+  @media screen and (max-width: 800px){
+    .productos__Column{
+      flex: 50%;
+      max-width: 100%;
+    }
+    .footer__container-body{
+      flex-wrap: wrap;
+    }
+    .footer__column1{
+      max-width: 100%;
+    }
+
+    .footer__column2,
+    .footer__column3{
+      margin-top: 40px;
+    }
+
+    .main__videos{
+    flex-wrap: wrap;
+    max-width: 100%;
+    }
+
+  }
+  
+  @media screen and (max-width: 600px){
+    .productos__Column{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .productos__Row{
+      display: contents;
+
+
+    }
+    .card{
+    margin-left: 0px;
+
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .productos__Column{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .productos__Row{
+      display: contents;
+    }
+
+  }
+  
+/*# sourceMappingURL=styles.css.map */
